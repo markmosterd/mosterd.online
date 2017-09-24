@@ -1,0 +1,20 @@
+---
+layout: default
+title: NEWSBLOG
+subtitle: About my world, and your one.
+background-image: /img/blog-header.jpg
+---
+{% for post in site.posts %}
+<div class="grid {% cycle " ", "reversed" %}">
+  <div class="col-6_sm-12 position-rel background halfscreen-vertical-sm">
+    <img src="{{post.background-image}}" alt="{{page.title}}" class="position-abs add-object-fit">
+  </div>
+  <div class="col-6_sm-12">
+    <h2 class="colors-dark padding-all">{{post.title}}</h2>
+    <p class="colors-dark padding-all">{{post.description}}</p>
+    <h5 class="text-align-center">
+      <a class="button-general colors-dark padding-all border-button" href="{{post.url}}">READ BLOG</a>
+    </h5>
+  </div>
+</div>
+{% endfor %}

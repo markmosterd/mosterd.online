@@ -1,0 +1,152 @@
+---
+layout: default
+heading-class: element
+background-image: /img/home-mosterd.online.jpg
+---
+<section id="image-skills" class="skills grid-top-middle cover-image background-fixed">
+  <div class="col-6_sm-8 background-fade padding-all" data-push-left="off-6_sm-4">
+    <p>I’m Mark. Just someone who likes to do whatever he wants, and create be the best version of it practising it. So guess what I’m practising, I’m doing things online. My main focus is the online developments of ecommerce. I’m allready active for the last 10 years on the internet and co-founded some ecommerce shops in the Netherlands. I’m also a fan of going to the gym to get some inspiration and  dicipline that I can use in my daily profession.</p>
+    <p class="text-align-center">
+    <a href="skills.html" class="button-general padding-all margin-top border-button">READ MORE</a>
+    </p>
+  </div>
+</section>
+<section id="domains" class="padding-all">
+  <div>
+    <div>
+      <h2 class="text-align-center padding-top-bottom">DOMAINS</h2>
+    </div>
+    <div class="grid-center-spaceAround">
+      <div class="col-4_sm-12">
+        <h3 class="padding-top-bottom"><i class="fa fa-bullhorn padding-right" aria-hidden="true"></i>RAILING.WORLD</h3>
+        <h3 class="padding-top-bottom"><i class="fa fa-hashtag padding-right" aria-hidden="true"></i>FENCE.WORLD</h3>
+        <h3 class="padding-top-bottom"><i class="fa fa-home padding-right" aria-hidden="true"></i>GAAS.SHOP</h3>
+        <h3 class="padding-top-bottom"><i class="fa fa-wheelchair padding-right" aria-hidden="true"></i>PIMPMYWHEEL.COM</h3>
+      </div>
+      <div class="col-4_sm-12">
+        <h3 class="padding-top-bottom"><i class="fa fa-futbol-o padding-right" aria-hidden="true"></i>BROTHERSHOPS.COM</h3>
+        <h3 class="padding-top-bottom"><i class="fa fa-industry padding-right" aria-hidden="true"></i>FENCES.WORLD</h3>
+        <h3 class="padding-top-bottom"><i class="fa fa-pencil padding-right" aria-hidden="true"></i>GARAGEDOOR.WORLD</h3>
+        <h3 class="padding-top-bottom"><i class="fa fa-tag padding-right" aria-hidden="true"></i>ONLINEFENCE.CO.UK</h3>
+      </div>
+    </div>
+    <p class="text-align-center">
+    <a href="domains-overview.html" class="button-general padding-all margin-top border-button">SEE THEM ALL</a>
+    </p>
+  </div>
+</section>
+<section id="blog" class="grid container">
+  <div class="col-12">
+    <h2 class="text-align-center padding-top-bottom colors-dark">NEWSBLOG</h2>
+  </div>
+  {% for post in site.posts limit:4 %}
+  <div class="col-6_sm-12 position-rel border-solid-white">
+    <div class="padding-all grid">
+      <div class="col-6_sm-8 z-index-top faded-background-white" data-push-left="off-6_sm-2">
+        <p>{{post.title}}</p>
+        <p class="text-align-center">
+          <a href="{{post.url}}" class="button-general padding-all border-button">READ ARTICLE</a>
+        </p>
+      </div>
+      <img src="{{post.background-image}}" alt="{{page.title}}" class="position-abs add-object-fit">
+    </div>
+  </div>
+  {% endfor %}
+  <p class="col-12 text-align-center">
+    <a href="blog-overview.html" class="button-general padding-all margin-top text-align-center">READ THEM ALL</a>
+  </p>
+  </div>
+</section>
+<section class="iframe">
+  <iframe class="fullscreen-horizontal" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.12117130838!2d4.270444915700958!3d51.949981786067426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b356718328a7%3A0x600be6cc11ea126b!2sWestgaag+10%2C+3155+DE+Maasland%2C+Nederland!5e0!3m2!1snl!2sid!4v1505902233993" width="800" height="540" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+<section id="testimonials" class="padding-left-right padding-top-bottom">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <div class="container">
+          <p class="font-bold padding-all text-align-center">
+            ‘’Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum”
+          </p>
+          <p class="padding-all text-align-center">
+            ‘’Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s’’
+          </p>
+          <div class="grid-center">
+            <div class="grid-middle col-5_md-12_sm-12 text-align-center">
+              <div class="col-5 margin-auto">
+                <img class="rounded-corners" src="img/testimonial-wim.jpg" alt="wim"/>
+              </div>
+              <div class="col-8 margin-auto">
+                <p class="font-bold">WIM VAN DER BURGH</p>
+                <p class="font-light">co-founder PixelX</p>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="container">
+          <p class="font-bold padding-all text-align-center">
+            ‘’Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum”
+          </p>
+          <p class="padding-all text-align-center">
+            ‘’Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s’’
+          </p>
+          <div class="grid-center">
+            <div class="grid-middle col-5_md-12_sm-12 text-align-center">
+              <div class="col-5 margin-auto">
+                <img class="rounded-corners" src="img/testimonial-wim.jpg" alt="wim"/>
+              </div>
+              <div class="col-8 margin-auto">
+                <p class="font-bold">WIM VAN DER BURGH</p>
+                <p class="font-light">co-founder PixelX</p>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="container">
+          <p class="font-bold padding-all text-align-center">
+            ‘’Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum”
+          </p>
+          <p class="padding-all text-align-center">
+            ‘’Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s’’
+          </p>
+          <div class="grid-center">
+            <div class="grid-middle col-5_md-12_sm-12 text-align-center">
+              <div class="col-5 margin-auto">
+                <img class="rounded-corners" src="img/testimonial-wim.jpg" alt="wim"/>
+              </div>
+              <div class="col-8 margin-auto">
+                <p class="font-bold">WIM VAN DER BURGH</p>
+                <p class="font-light">co-founder PixelX</p>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+    <a id="testimonials-arrow-left" href="#">
+      <i class="fa fa-angle-left" aria-hidden="true"></i>
+    </a>
+    <a id="testimonials-arrow-right" href="#">
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+</section>

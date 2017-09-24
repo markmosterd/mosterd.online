@@ -1,0 +1,6 @@
+collections:
+  - domains
+
+collections:
+  domains:
+    output: true

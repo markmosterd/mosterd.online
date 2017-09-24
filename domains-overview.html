@@ -1,0 +1,25 @@
+---
+layout: default
+title: DOMAINS
+subtitle: Like one? Buy one!
+background-image: /img/domains-overview-header.jpg
+---
+<div class="text-align-center padding-all">
+  <p>These domains may be available for purchase. Just select the domain you like and complete the form. Send your offer now!</p>
+</div>
+<section class="padding-all greywhiteloop">
+    {% for domain in site.domains %}
+    <div class="grid-middle loop padding-all">
+      <div class="col-1_sm-12 mobile-center icon-size-medium">
+        <i class="fa fa-ravelry" aria-hidden="true"></i>
+      </div>
+      <div class="col-9_sm-12">
+        <h3>{{domain.title}}</h3>
+        <p class="font-light">Do you like <span class="font-bold">{{domain.title}}</span>? Just click on the tab and fill in the form to send an offer!</p>
+      </div>
+      <p class="col-2_sm-12s text-align-center">
+      <a href="{{domain.url}}" class="button-domains padding-all border-button">MAKE AN OFFER</a>
+      </p>
+    </div>
+    {% endfor %}
+</section>

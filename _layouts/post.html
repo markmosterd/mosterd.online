@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="grid padding-all">
+  <div class="col-2 padding-all">
+    <img class="rounded-corners" src="{{page.author-image}}" alt="{{post.title}}"/>
+    <p class="font-bold colors-dark">{{page.author-name}}</p>
+    <p class="font-light colors-dark">{{page.author-function}}</p>
+  </div>
+  <div class="col-10 padding-all">
+    {{content}}
+  </div>
+</section>

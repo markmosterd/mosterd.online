@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="text-align-center padding-all">
+  <p><span class="font-bold">{{page.title}}</span> may be available for purchase. Just fill in the form and wait for a response!</p>
+</div>
+<div class="padding-all container">
+  <form method="POST" action="http://formspree.io/markmosterd@me.com">
+    <label for="name">NAME</label>
+    <input id="name" type="tekst" name="name" placeholder="Your full name">
+    <label for="email">EMAILADRESS</label>
+    <input id="email" type="email" name="email" placeholder="Your valid emailadress">
+      <label for="tel">PHONENUMBER</label>
+    <input id="tel" type="tel" name="phonenumber" placeholder="Your phone number">
+      <label for="offer">OFFER</label>
+    <input id="offer" type="number" name="offer" placeholder="Your offer in EUR€">
+    <label for="message">MESSAGE</label>
+    <textarea id="message" name="message" placeholder="You can add a short message here"></textarea>
+    <button type="submit">MAKE AN OFFER</button>
+  </form>
+</div>
